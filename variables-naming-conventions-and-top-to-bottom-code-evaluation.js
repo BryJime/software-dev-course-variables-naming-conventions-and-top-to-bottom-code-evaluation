@@ -24,9 +24,17 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice";
 
-console.log(d);
+let items = 5;
+
+let currency = 20;
+
+let summary = name + " bought " + items + " items for $" + currency + "."
+
+let total = items * currency;
+
+
+console.log(summary);
+
+console.log(name + " spent " + "$" + total); 
